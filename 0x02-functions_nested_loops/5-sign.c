@@ -25,7 +25,7 @@ int print_sign(int n)
 		return (-1);
 	}
 
-    // Add a default return value here (e.g., return 0;)
-    // or handle the case when n doesn't match any condition.
+    // Default case: return 0 for unsupported values of n
+    return 0;
 }
 
